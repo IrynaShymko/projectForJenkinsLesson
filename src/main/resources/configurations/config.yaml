@@ -1,0 +1,25 @@
+browser:
+  browserName: chrome #firefox
+  webElementTimeOut: 25  #Explicitly wait
+  webBrowserImplicitTimeOut: 10
+
+
+
+environment:
+  intEnv:
+    appUrl: https://worldofaviation.com/
+    env_name: intEnv
+    expectedMessage: The World of Aviation – The world's leading aviation news website
+    active: false
+
+  testEnv:
+    appUrl: https://worldofaviation.com/
+    env_name: testEnv
+    expectedMessage: The World of Aviation – The world's leading aviation news website
+    active: true
+
+  defaultEnv:
+    appUrl: https://worldofaviation.com/
+    env_name: defaultEnv
+    expectedMessage: The World of Aviation – The world's leading aviation news website
+    active: false
